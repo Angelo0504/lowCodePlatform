@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jnpf-visualdev-portal</artifactId>
+        <groupId>com.jnpf</groupId>
+        <version>${jnpf.version}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jnpf-visualdev-portal-controller</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-visualdev-portal-entity</artifactId>
+            <version>${jnpf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-system-permission-api</artifactId>
+            <version>${jnpf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-visualdev-portal-biz</artifactId>
+            <version>${jnpf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-system-base-api</artifactId>
+            <version>${jnpf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-workflow-engine-api</artifactId>
+            <version>${jnpf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-system-message-api</artifactId>
+            <version>${jnpf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-extend-api</artifactId>
+            <version>${jnpf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+
+</project>

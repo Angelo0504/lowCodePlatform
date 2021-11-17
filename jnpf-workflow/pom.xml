@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jnpf-cloud</artifactId>
+        <groupId>com.jnpf</groupId>
+        <version>${jnpf.version}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jnpf-workflow</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>jnpf-workflow-form</module>
+        <module>jnpf-workflow-engine</module>
+        <module>jnpf-workflow-server</module>
+    </modules>
+
+    <dependencies>
+
+        <!-- nacos -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
+        <!-- springboot -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- swagger模块 -->
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-common-swagger</artifactId>
+            <version>${jnpf.version}</version>
+        </dependency>
+
+        <!-- data模块 -->
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-common-database</artifactId>
+            <version>${jnpf.version}</version>
+        </dependency>
+
+        <!-- 字段验证 -->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>${validation.vsersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${hibernate-validator.vsersion}</version>
+        </dependency>
+
+        <!--sentinel-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
+
+        <!-- seata -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
+        </dependency>
+
+        <!--导入aop-->
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-common-springaop</artifactId>
+            <version>${jnpf.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

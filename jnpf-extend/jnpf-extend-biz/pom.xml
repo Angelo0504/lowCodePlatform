@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jnpf-extend</artifactId>
+        <groupId>com.jnpf</groupId>
+        <version>${jnpf.version}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jnpf-extend-biz</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-extend-entity</artifactId>
+            <version>${jnpf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-system-base-entity</artifactId>
+            <version>${jnpf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itext-asian</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jnpf</groupId>
+            <artifactId>jnpf-file-api</artifactId>
+            <version>${jnpf.version}</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jnpf-visualdev</artifactId>
+        <groupId>com.jnpf</groupId>
+        <version>${jnpf.version}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jnpf-visualdev-base</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>jnpf-visualdev-base-controller</module>
+        <module>jnpf-visualdev-base-entity</module>
+        <module>jnpf-visualdev-base-api</module>
+        <module>jnpf-visualdev-base-biz</module>
+    </modules>
+
+</project>
